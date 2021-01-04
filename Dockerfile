@@ -6,6 +6,6 @@ RUN ./gradlew build --no-daemon
 
 FROM openjdk:15-slim
 LABEL org.opencontainers.image.source https://github.com/chrisliebaer/taming-github-actions-or-die-trying
-COPY --from=build /build/build/libs/* /hello-world
+COPY --from=build /build/build/libs/hello-world.jar /hello-world/hello-world.jar
 WORKDIR /hello-world
 ENTRYPOINT ["java", "-jar", "hello-world.jar"]
