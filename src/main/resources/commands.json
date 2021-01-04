@@ -1,0 +1,36 @@
+{
+    "name": "mensa",
+    "description": "Erlaubt Zugriff auf den Speiseplan der Mensa des KIT",
+    "options": [
+        {
+            "name": "Tag",
+            "description": "Gibt an welcher Tag dich interessiert",
+            "type": 3,
+            "required": false,
+            "choices": [
+                {"name": "Heute", "value": "heute"},
+                {"name": "Morgen", "value": "morgen"},
+                {"name": "Montag", "value": "montag"},
+                {"name": "Dienstag", "value": "dienstag"},
+                {"name": "Mittwoch", "value": "mittwoch"},
+                {"name": "Donnerstag", "value": "donnerstag"},
+                {"name": "Freitag", "value": "freitag"}
+            ]
+        },
+        {
+            "name": "Kantine",
+            "description": "Wähle andere Mensen des Studierendenwerks",
+            "type": 3,
+            "required": false,
+			"choices": [
+                {"name": "Adennauerring", "value": "adenauerring"},
+                {"name": "Holzgarten", "value": "holzgarten"},
+                {"name": "Tiefenbronner", "value": "tiefenbronner"},
+                {"name": "Moltke", "value": "moltke"},
+                {"name": "X1moltkestrasse", "value": "x1moltkestrasse"},
+                {"name": "Gottesaue", "value": "gottesaue"},
+                {"name": "Erzberger", "value": "erzberger"}
+            ]
+        }
+    ]
+}
