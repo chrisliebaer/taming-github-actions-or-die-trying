@@ -20,7 +20,7 @@ repositories {
 }
 
 application {
-	mainClass.set("de.chrisliebaer.HelloWorld")
+	mainClass.set("de.chrisliebaer.helloworld.HelloWorld")
 }
 
 java {
