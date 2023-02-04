@@ -45,7 +45,6 @@ tasks.withType(JavaCompile::class.java).all {
 	options.encoding = "UTF-8"
 }
 
-
 tasks.withType(Jar::class).all {
 	manifest {
 		attributes["Main-Class"] = application.mainClass
